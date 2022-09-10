@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #9688D7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Sigmar One';
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.card {
+  width: 420px;
+  background-color: #8971D0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 12px;
+}
+
+.main-logo{
+/*   color: #491844; */
+}
+
+.card-list {
+  width: 360px;
+  background-color: #CA9FDF;
+  display: flex;
+/*   justify-content: center; */
+/*   align-items: center; */
+  border-radius: 30px;
+  padding: 10px 10px 10px 15px;
+  margin-bottom: 20px;
+}
+
+.new-task {
+  color: #444EC1;
+  background-color: #F3E4F6;
+  border: 5px solid #444EC1;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-family: 'Sigmar One';
+  cursor: pointer;
+}
+
+input {
+  margin-left: 10px;
+  border: 0px;
+  border-radius: 30px;
+  padding-left: 10px;;
+  width: 180px;
+  background-color: #F3E4F6;
+  display: flex;
+    
+}
+
+.list-btn {
+  width: 130px;
+  display: flex;
+  justify-content: end;
+}
+
+.list-btn, button {
+  margin-right: 10px;
+  border: 0px;
+/*   background-color: #CA9FDF; */
+}
